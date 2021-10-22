@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-@Service
+//@Service
 public class DummyProviderImpl implements DataProvider {
     @Override
     public Stream<MedicineDto> loadData() {
