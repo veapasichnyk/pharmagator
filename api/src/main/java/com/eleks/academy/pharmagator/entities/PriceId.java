@@ -1,15 +1,18 @@
 package com.eleks.academy.pharmagator.entities;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import java.io.Serializable;
 
-@Getter
-@Setter
-@EqualsAndHashCode
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class PriceId implements Serializable {
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long pharmacyId;
+
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long medicineId;
 }
