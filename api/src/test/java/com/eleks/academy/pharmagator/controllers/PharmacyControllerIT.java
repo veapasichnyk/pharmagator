@@ -1,4 +1,4 @@
-package com.eleks.academy.pharmagator.controllers;
+/*package com.eleks.academy.pharmagator.controllers;
 
 import org.dbunit.database.DatabaseDataSourceConnection;
 import org.dbunit.dataset.DataSetException;
@@ -62,4 +62,4 @@ public class PharmacyControllerIT {
         }
     }
 
-}
+}*/
