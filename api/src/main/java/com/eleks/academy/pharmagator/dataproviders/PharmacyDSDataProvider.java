@@ -65,7 +65,8 @@ public class PharmacyDSDataProvider implements DataProvider {
 
         Long total;
         if (dsMedicinesResponse != null) {
-            total = dsMedicinesResponse.getTotal();
+//            total = dsMedicinesResponse.getTotal();
+            total = 100l;
             long pageCount = total / pageSize;
 
             List<DSMedicinesResponse> responseList = new ArrayList<>();
